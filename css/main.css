@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0%;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;  
+    padding: 30;
+    box-sizing: border-box;
+    background-image: url(img/cominas.jpeg);
+}
+
+header {
+    background: black;
+    color: whitesmoke;
+    padding: 10px 0;
+
+}
+
+header .container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: ;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    
+    background-color: orange;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 0% 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    list-style: none;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    
+}
+
+
+
+.horarios{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    display: contents;
+    
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: orange;
+}
+tr td {
+    border: 1%;
+    padding: 8%;
+    text-align: center;
+    background-color: orange;
+    
+}
+th {
+    background-color: orange;
+}
+.datos{
+    background-color: orange;
+    
+}
+section {
+    background-color: orange;
+    margin: 50px;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 0px 10;
+    position: relative;
+    width: 100%;
+
+
+}
+div{
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+div img{
+    width: 280px;
+    height: 280px;
+    justify-content: center;
+
+}
+.menu-menu{
+    background-color: orange;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+.contact{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.carnes{
+    background-color: orange;
+    justify-content: center;
+    text-align: center;
+    
+}
+.pastas{
+    background-color: orange;
+    justify-content: center;
+    text-align: center;
+}
+.entradas{
+    background-color: orange;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container-fluid{
+    background-color: #333;
+}
+.nav-link{
+    color: black;
+    
+}
+.postres{
+    background-color: orange;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px;){
+    section{
+        text-align: center;
+        align-items: center;
+        display:flex;
+       grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+
+    }
+    section .container img{
+        width: 40%;
+       
+       
+    }
+
+}
